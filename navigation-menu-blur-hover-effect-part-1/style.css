@@ -1,0 +1,75 @@
+body,html,* {
+  margin: 0;
+  padding: 0;
+  transition: 300ms all ease;
+background-color: #000;
+}
+img {
+  float:left;
+}
+h1 {
+  float:right;
+font-family: 'Love Ya Like A Sister', cursive;
+font-size: 55px;
+}
+
+* {
+  font-family: 'Farro', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content:left;
+  -ms-align-items: center;
+  align-items: center;
+  height: 100vh;
+  background: #000;
+}
+
+.navigation {
+  
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+ /* width: 300px;
+  height: 50px;
+}*/
+
+.navigation:hover a {
+  filter: blur(4px);
+}
+
+.nav_item a {
+  display: flex;
+  justify-content: center;
+  -ms-align-items:center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  border: 1px solid #2f2f2f;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  color:#000;
+  background: linear-gradient(240deg,#fde871,#f8d800);
+  letter-spacing:40 px
+}
+
+.nav_item a:hover {
+  background: linear-gradient(240deg,#f8d800,#fde871);
+  filter: blur(0);
+  margin-left: 15px;
+}
